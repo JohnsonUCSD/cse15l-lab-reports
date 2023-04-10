@@ -19,7 +19,7 @@
 2. Download [git](https://gitforwindows.org/) for windows and follow the instructions
   - If you are on mac, [git](https://gitforwindows.org/) should already be installed
 3. Use git bash as the default terminal in VS Code by following the instructions below
-  - [How to use Bash in VScode]([https://gitforwindows.org/](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994))
+  - [How to use Bash in VScode](https://gitforwindows.org/](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 4. Open terminal in VScode
 5. In the terminal, use the following command with your course-specific account:
 - `$ ssh cs15lsp23--@ieng6.ucsd.edu`

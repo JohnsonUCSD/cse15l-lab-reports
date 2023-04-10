@@ -14,7 +14,7 @@
   - [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
     - If it is your first time accessing this account, you need to reset your password to set a password
     - If you are having trouble, here are the [instructions to reset your CSE15L password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
-  - The course specific account should look something like **cs15lsp23--@ieng6.ucsd.edu** with the -- being some letters for your course-specific account
+  - The course specific account should look something like ``cs15lsp23--@ieng6.ucsd.edu`` with the `--` being some letters for your course-specific account
 > *save your account and password as we will need it soon*
 2. Download [git](https://gitforwindows.org/) for windows and follow the instructions
   - If you are on mac, [git](https://gitforwindows.org/) should already be installed
@@ -29,7 +29,9 @@
 - Once you've done that it will now ask for your password, so type the password you created for your course-specific account
 > The password might not look like it is being typed, but it is, so keep trying.
 
-> If you keep running into trouble and you are sure that you typed in your password correctly, it could be that your password for your course-specific account ahs not updated and you need to wait.
+> If you keep running into trouble and you are sure that you typed in your password correctly, it could be that your password for your course-specific account has not updated and you need to wait.
+
+
 6. Once logged in, you will see a message similar to this:
 
 ![Image](nexon_client_yUyu8J5pYh.png)

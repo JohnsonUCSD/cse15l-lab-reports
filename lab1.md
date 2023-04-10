@@ -5,6 +5,8 @@
 2. Click on the carat to drop down and download the [VSCode](https://code.visualstudio.com/) installer for your OS
 ![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/main/VSCodeSS.png)
 3. Run the installer and follow the intructions on it
+![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/b589f2257566e5b7a04c32616f0dc1c15ee8da3c/Code_zp2Z127h70.png)
+- After you are done you should see a screen that looks similar to this
 
 
 ## Remotely Connecting

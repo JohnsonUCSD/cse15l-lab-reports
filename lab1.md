@@ -32,7 +32,7 @@
 > If you keep running into trouble and you are sure that you typed in your password correctly, it could be that your password for your course-specific account has not updated and you need to wait.
 
 
-6. Once logged in, you will see a message similar to this:
+Once logged in, you will see a message similar to this:
 
 ![Image](nexon_client_yUyu8J5pYh.png)
 

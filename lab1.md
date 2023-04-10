@@ -15,7 +15,7 @@
   - If it is your first time accessing this account, you need to reset your password to set a password
   - If you are having trouble, here are the [instructions to reset your CSE15L password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
 - The course specific account should look something like cs15lsp23--@ieng6.ucsd.edu with the -- being some letters for your course-specific account
-*save your account and password as we will need it soon*
+> *save your account and password as we will need it soon*
 2. Download [git](https://gitforwindows.org/) for windows
 - If you are on mac, git should already be installed
 3. Use git bash as the default terminal in VS Code by following the instructions below

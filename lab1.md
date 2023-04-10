@@ -30,7 +30,9 @@
 > The password might not look like it is being typed, but it is, so keeep trying
 > It could also be the case that you just need to wait for your course-specific account password to update
 6. Once logged in, you will see a message similar to this:
+
 ![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/63116364987bef065e8b3f147c293e64b1d02750/nexon_client_yUyu8J5pYh.png)
+
 Congratulations! Your terminal is now connected to a computer in the CSE basement
 ## Trying Some Commands
 Now that you are connected, try running some code

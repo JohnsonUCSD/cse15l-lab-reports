@@ -50,6 +50,8 @@ As an example, here are some commands that I used together:
 
 ![Image](chrome_u4H6kAGde4.png)
 > Source: Week 1 Worksheet on Thursday
+
+
 To log out of the remote server in your terminal, you can do
 - Ctrl + D
 - Run the commmand `exit`

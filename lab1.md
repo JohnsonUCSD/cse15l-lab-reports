@@ -27,8 +27,9 @@
   - If it is your first time you will probbaly get a message similar to this, so type `yes` and then enter
 ![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/61dab5603f07104b7c16b3b932a8f64d8438187a/nexon_client_h1RyPmstir.png)
 - Once you've done that it will now ask for your password, so type the password you created for your course-specific account
-> The password might not look like it is being typed, but it is, so keeep trying
-> It could also be the case that you just need to wait for your course-specific account password to update
+> The password might not look like it is being typed, but it is, so keep trying.
+
+> If you keep running into trouble and you are sure that you typed in your password correctly, it could be that your password for your course-specific account ahs not updated and you need to wait.
 6. Once logged in, you will see a message similar to this:
 
 ![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/63116364987bef065e8b3f147c293e64b1d02750/nexon_client_yUyu8J5pYh.png)

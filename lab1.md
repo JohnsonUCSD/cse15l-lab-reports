@@ -43,11 +43,10 @@ More you can try out:
 - `ls /home/linux/ieng6/cs15lsp23/cs15lsp23--` with `--` being one of your group member's username
 - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
-- 
 As an example, here are some commands that I used together:
 
 ![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/416bb54a69d5ea429701148dddf100a0e83b3215/chrome_u4H6kAGde4.png)
-
+> Source: Week 1 Worksheet on Thursday
 To log out of the remote server in your terminal, you can do
 - Ctrl + D
 - Run the commmand `exit`

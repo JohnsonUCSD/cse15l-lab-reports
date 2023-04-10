@@ -3,9 +3,9 @@
 ## Installing VSCode
 1. Go onto the [VSCode](https://code.visualstudio.com/) website -  [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Click on the drop down and download [VSCode](https://code.visualstudio.com/) installer for your OS
-![Image](https://raw.githubusercontent.com/JohnsonUCSD/cse15l-lab-reports/main/VSCodeSS.png)
+![Image](VSCodeSS.png)
 3. Run the installer and follow the intructions on it
-![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/b589f2257566e5b7a04c32616f0dc1c15ee8da3c/Code_zp2Z127h70.png)
+![Image](Code_zp2Z127h70.png)
 - After you are done you should see a screen that looks similar to this
 
 
@@ -25,20 +25,20 @@
 - `$ ssh cs15lsp23--@ieng6.ucsd.edu`
 - Remember that the `--` is the letters for your account and that you do not include the `$`
   - If it is your first time you will probbaly get a message similar to this, so type `yes` and then enter
-![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/61dab5603f07104b7c16b3b932a8f64d8438187a/nexon_client_h1RyPmstir.png)
+![Image](nexon_client_h1RyPmstir.png)
 - Once you've done that it will now ask for your password, so type the password you created for your course-specific account
 > The password might not look like it is being typed, but it is, so keep trying.
 
 > If you keep running into trouble and you are sure that you typed in your password correctly, it could be that your password for your course-specific account ahs not updated and you need to wait.
 6. Once logged in, you will see a message similar to this:
 
-![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/63116364987bef065e8b3f147c293e64b1d02750/nexon_client_yUyu8J5pYh.png)
+![Image](nexon_client_yUyu8J5pYh.png)
 
 Congratulations! Your terminal is now connected to a computer in the CSE basement
 ## Trying Some Commands
 Now that you are connected, try running some code
 
-![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/33ceefeaca28485002519df29a0763d4a48f533e/nexon_client_nCLKxRAgzf.png)
+![Image](nexon_client_nCLKxRAgzf.png)
 
 More you can try out:
 - `ls /home/linux/ieng6/cs15lsp23/cs15lsp23--` with `--` being one of your group member's username
@@ -48,7 +48,7 @@ More you can try out:
 
 As an example, here are some commands that I used together:
 
-![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/416bb54a69d5ea429701148dddf100a0e83b3215/chrome_u4H6kAGde4.png)
+![Image](chrome_u4H6kAGde4.png)
 > Source: Week 1 Worksheet on Thursday
 To log out of the remote server in your terminal, you can do
 - Ctrl + D

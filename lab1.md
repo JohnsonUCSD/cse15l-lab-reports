@@ -16,7 +16,7 @@
     - If you are having trouble, here are the [instructions to reset your CSE15L password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
   - The course specific account should look something like cs15lsp23--@ieng6.ucsd.edu with the -- being some letters for your course-specific account
 > *save your account and password as we will need it soon*
-2. Download [git](https://gitforwindows.org/) for windows
+2. Download [git](https://gitforwindows.org/) for windows and follow the instructions
   - If you are on mac, git should already be installed
 3. Use git bash as the default terminal in VS Code by following the instructions below
   - [How to use Bash in VScode](https://gitforwindows.org/)
@@ -24,5 +24,13 @@
 5. In the terminal, use the following command with your course-specific account:
 - `$ ssh cs15lsp23--@ieng6.ucsd.edu`
 - Remember that the `--` is the letters for your account and that you do not include the `$`
-- 
+  - If it is your first time you will probbaly get a message similar to this, so type `yes` and then enter
+![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/61dab5603f07104b7c16b3b932a8f64d8438187a/nexon_client_h1RyPmstir.png)
+- Once you've done that it will now ask for your password, so type the password you created for your course-specific account
+> The password might not look like it is being typed, but it is, so keeep trying
+> It could also be the case that you just need to wait for your course-specific account password to update
+6. Once logged in, you will see a message similar to this:
+![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/63116364987bef065e8b3f147c293e64b1d02750/nexon_client_yUyu8J5pYh.png)
+Congratulations! Your terminal is now connected to a computer in the CSE basement
 ## Trying Some Commands
+Now that you are connected, try running some code

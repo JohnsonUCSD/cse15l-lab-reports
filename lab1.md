@@ -42,7 +42,7 @@ Now that you are connected, try running some code
 More you can try out:
 - `ls /home/linux/ieng6/cs15lsp23/cs15lsp23--` with `--` being one of your group member's username
 - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-- `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`\
+- `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 - 
 As an example, here are some commands that I used together:
 

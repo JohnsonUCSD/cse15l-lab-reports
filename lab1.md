@@ -45,7 +45,7 @@ More you can try out:
 - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 - `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 - `ls -lat`
-- 
+
 As an example, here are some commands that I used together:
 
 ![Image](https://github.com/JohnsonUCSD/cse15l-lab-reports/blob/416bb54a69d5ea429701148dddf100a0e83b3215/chrome_u4H6kAGde4.png)

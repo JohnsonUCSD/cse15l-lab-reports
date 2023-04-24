@@ -23,6 +23,7 @@ public void testReverseInPlaceManyInts() {
 }
 ```
 
+Input that doesn't iduce a failure
 ```
 @Test 
 public void testReverseInPlace() {
@@ -31,8 +32,28 @@ public void testReverseInPlace() {
   assertArrayEquals(new int[]{99}, input1);
 }
 ```
-
+Symptom
 ![Image](ArrayExamplesTest.png)
+
+Bug before:
+```
+static void reverseInPlace(int[] arr) {
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+  }
+}
+```
+Bug Fixed:
+```
+static void reverseInPlace(int[] arr) {
+  int temp;
+  for(int i = 0; i < arr.length/2; i += 1) {
+    temp = arr[i];
+    arr[i] = arr[arr.length - i - 1];
+    arr[arr.length - i - 1] = temp;
+  }
+}
+```
 
 ## Part 3
 Something that I learned in week 2 was how to use Github Desktop and the different uses for it. I did not know that GitHub had a feature like this. Because of this, it allows me to work on the lap reports I put on the GitHub from my laptop and desktop at home without having to transfer over files since it is all saved in my GitHub repository. After this class, I can see myself using this a lot.

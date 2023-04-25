@@ -8,6 +8,8 @@ Code for `StringServer.java`:
 - The methods in the code that were called are `getPath()` and the string method `equals()` to make it so that the path was `"/add-message"` and then `getQuery()` in combination with the string method `split()` to see what the string we want to add is.
 - For `getPath()` and `getQuery()`, they do not need an argument. However, for them to work, we need a `URI` type on the left such as `something.getPath()`. For the `equals()`, the valid argument is a `String` and it makes sure that the `String` on the left is the same as the `String` in the argument. Lastly, for the `split()` method, the valid arguments it takes are `String`s. The most relevant field is `message` and it is a `String` type.
 - Some of the `URI` gets changed to `String` by the methods. Methods such as `getQuery()` have a `URI` on the left and then returns a `String` type. 
+
+
 ![Image](labreport2second.png)
 
 ## Part 2

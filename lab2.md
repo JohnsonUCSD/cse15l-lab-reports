@@ -9,13 +9,6 @@ Code for `StringServer.java`:
 - For `getPath()` and `getQuery()`, they do not need an argument. However, for them to work, we need a `URI` type on the left such as `something.getPath()`. For the `equals()`, the valid argument is a `String` and it makes sure that the `String` on the left is the same as the `String` in the argument. Lastly, for the `split()` method, the valid arguments it takes are `String`s. The most relevant field is `message` and it is a `String` type.
 - Some of the `URI` gets changed to `String` by the methods. Methods such as `getQuery()` have a `URI` on the left and then returns a `String` type. 
 ![Image](labreport2second.png)
-For each of the two screenshots, describe:
-
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
-
 
 ## Part 2
 The method I used for this part was reverseInPlace in the `ArrayExamples.java` and tested in `ArrayTests.java`

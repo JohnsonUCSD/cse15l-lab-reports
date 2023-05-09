@@ -1,4 +1,6 @@
 # **Lab Report 3: Grep Command-line Options**
+Source used for all: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
+
 ## Using -w
 `$ grep -w Daniel  government/Alcohol_Problems/DraftRecom-PDF.txt`
 

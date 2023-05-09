@@ -1,13 +1,7 @@
 # **Lab Report 3: Grep Command-line Options**
 ## Using -w
-``
-$ grep -w Daniel  government/Alcohol_Problems/DraftRecom-PDF.txt
-``
-
-``
-$ grep -w Salt  government/Media/5_Legal_Groups.txt
-``
-
+`$ grep -w Daniel  government/Alcohol_Problems/DraftRecom-PDF.txt`
+`$ grep -w Salt  government/Media/5_Legal_Groups.txt`
 The `-w` option searches for the whole word in each line of the .txt file. This is useful some substrings may have the word in it such as how "service" has the substring "vice" in it, so when you don't have the `-w` and look for "vice" with grep it makes it so that it returns the line with the word "service" in it.
 
 ## Using -n

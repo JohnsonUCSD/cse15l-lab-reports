@@ -3,7 +3,7 @@
 ## Step 4 
 ![Image](lab4step4.png)
 
-Keys Pressed: ssh cs15lsp23@ieng6.ucsd.edu`<enter>`
+Keys Pressed: ssh cs15lsp23jt@ieng6.ucsd.edu`<enter>`
 
 I was logging into my CSE 15L remote account.
   

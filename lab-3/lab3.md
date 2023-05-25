@@ -3,7 +3,7 @@ Source used for all: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#]
 
 ## Using -w
 `$ grep -w Daniel  government/Alcohol_Problems/DraftRecom-PDF.txt`
-!Image[grepw1.png]
+![Image](grepw1.png)
 
 `$ grep -w Salt  government/Media/5_Legal_Groups.txt`
 

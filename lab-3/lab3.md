@@ -1,7 +1,9 @@
 # **Lab Report 3: Grep Command-line Options**
-Source used for all: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
 
 ## Using -w
+
+Source Used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
+
 `$ grep -w Daniel  government/Alcohol_Problems/DraftRecom-PDF.txt`
 
 
@@ -24,6 +26,9 @@ The `-w` option searches for the whole word in each line of the .txt file. This 
 
 ---
 ## Using -n
+
+Source Used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
+
 `$ grep -n "recently" plos/journal.pbio.0020001.txt`
 
 
@@ -44,6 +49,9 @@ The `-n` option is like a normal grep but adds the line numbers of where it foun
 
 ---
 ## Using -c
+
+Source Used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
+
 `$ grep -c "American" 911report/chapter-1.txt`
 
 
@@ -63,6 +71,9 @@ The `-c` option makes it so that it returns the number of lines with the specifi
 
 ---
 ## Using -l
+
+Source Used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#)
+
 `$ grep -l "Boston" 911report/*.txt`
 
 This example shows all of the txt files that has the string "Boston" in the `911report` directory

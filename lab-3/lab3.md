@@ -7,10 +7,15 @@ Source used for all: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/#]
 
 ![Image](grepw1.png)
 
+In this example, it is looking for the word "Daniel" inside `DraftRecom-PDF.txt` and returning all of the lines it finds the word in.
+
 `$ grep -w Salt  government/Media/5_Legal_Groups.txt`
 
 
+
 ![Image](grepw2.png)
+
+In this example, it is looking for the word "Salt" inside `5_Legal_Groups.txt` and returning all of the lines it finds the word in.
 
 
 **What it is doing and why it is useful**
@@ -24,10 +29,14 @@ The `-w` option searches for the whole word in each line of the .txt file. This 
 
 ![Image](grepn1.png)
 
+This example is acting like a normal grep and finding the string "recently" in `journal.pbio.0020001.txt`. However, this time, when it gives us the lines, it shows us which lines it found "American" in. For this one, it found that line 6 and 13 have it.
+
 `$ grep -n "American" 911report/chapter-1.txt`
 
 
 ![Image](grepn2.png)
+
+This example is looking for the string "American" in `chapter-1.txt`. When I did this, the output was very large as it had many many lines, so I could only screenshot a certain number of them. There was a lot of lines (the next command will count them).
 
 **What it is doing and why it is useful**
 
@@ -40,8 +49,11 @@ The `-n` option is like a normal grep but adds the line numbers of where it foun
 
 ![Image](grepc1.png)
 
+Connecting it back to the last grep with "American" and using `-n `, the output was very big and had a lot of lines. Now, by using `-c`, we can count how many lines had it. For this one, it has 81 lines that has the string "American" in it.
+
 `$ grep -c "American" 911report/chapter-10.txt`
 
+This example shows that `chapter-10.txt` has 5 lines with the string "American".
 
 ![Image](grepc2.png)
 
@@ -53,10 +65,13 @@ The `-c` option makes it so that it returns the number of lines with the specifi
 ## Using -l
 `$ grep -l "Boston" 911report/*.txt`
 
+This example shows all of the txt files that has the string "Boston" in the `911report` directory
 
 ![Image](grepl1.png)
 
 `$ grep -l "cholesterol" biomed/*.txt`
+
+This example shows all of the txt files that has the string "cholesterol" in the `biomed` directory.
 
 
 ![Image](grepl2.png)

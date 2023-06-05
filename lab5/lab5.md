@@ -1,4 +1,8 @@
-!Image(chrome_1EGoYhCfI6.png)
+![Image](chrome_1EGoYhCfI6.png)
+
+![Image](chrome_Ai4eYpU29n.png)
+
+![Image](chrome_qDn1r8RHvk.png)
 
 What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 

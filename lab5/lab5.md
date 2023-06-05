@@ -27,7 +27,7 @@ The bug was that in the `.sh` file, after compiling the `TestListExamples.java`,
 
 ![Image](lab5directorystructure.png)
 
-Contents of each file before fixing bug
+**Contents of each file before fixing bug**
 
 GradeServer.java
 
@@ -48,6 +48,7 @@ grade.sh
 **The full command line ran to trigger the bug**
 
 **Description of what to edit to fix the bug**
+
 To fix the bug, I had to delete the `.java` in `TestListExamples.java` on this line: `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples.java > junit-output.txt` 
 
 ---

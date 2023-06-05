@@ -19,43 +19,41 @@ Response from TA:
 
 ![Image](runningfixed.png)
 
-The bug was that in the `.sh` file, after compiling the `TestListExamples.java`, to run it, I used `TestListExamples.java`. Instead, what it should've been is `TestListExamples`. Because I wrote `TestListExamples.java`, it tried to look for it as one of the `.class` files, but it didn't exist after compiling `TestListExamples.java` because the what it created when compiling is `TestListExamples.class`, and to run it we only need `TestListExamples`
-.
+The bug was that in the `.sh` file, after compiling the `TestListExamples.java`, to run it, I used `TestListExamples.java`. Instead, what it should've been is `TestListExamples`. Because I wrote `TestListExamples.java`, it tried to look for it as one of the `.class` files, but it didn't exist after compiling `TestListExamples.java` because the what it created when compiling is `TestListExamples.class`, and to run it we only need `TestListExamples`.
+
+3. I did this all using the CSE 15L remote server so I don't have access to things such as the left side and am using vim to access the files.
+
+**The File and Directory Structure**
+
+![Image](lab5directorystructure.png)
+
+Contents of each file before fixing bug
+
+GradeServer.java
+
+![Image]()
+
+Server.java
+
+![Image]()
+
+TestListExamples.java
+
+![Image]()
+
+grade.sh
+
+![Image]()
+
+**The full command line ran to trigger the bug**
+
+**Description of what to edit to fix the bug**
+To fix the bug, I had to delete the `.java` in `TestListExamples.java` on this line: `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples.java > junit-output.txt` 
+
+---
+
+## Part 2 - Reflection
+Something that I leanred in the second half of this quarter that I didn't know before is using vim. Before I knew about vim, I didn't know that you could edit a file on the command line. Editing is can feel very clunky at times, but having the ability to do so is very useful. Without having the files on your computer, you can just remote onto a server and edit files, view them, and samve them, which is pretty cool. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
-
-I am using a Windows 10 computer and using Visual Studio Code. Using Git Bash, I sshed into the ieng6 servers on my  CSE 15L account. 
-
-Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
-
-When I try to run my grade.sh, I am getting failing initializationError but this is not one of my test. What should happen is it should run 4 test inside TestListExamples.java and based on the one from the cloned directory from GitHub, it should have a score of 2/4, but it isn't running any of them and running the initialization error one instead and getting 1/4.
-
-
-
-Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
-
-
-
-To run grade.sh, I typed bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3 in the command line and ran it. Before this, I cloned this whole repository from https://github.com/ucsd-cse15l-f22/list-examples-grader/blob/main/TestListExamples.java (The actual error is different and I fixed it, but in this scenario I am pretending like it is another error). The directory I am currently in is /home/linux/ieng6/cs15lsp23/cs15lsp23jt/list-examples-grader these are the files in it.
-
-
-
-The four test that I was planning to run are 
-
-
-
-
-
+In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!

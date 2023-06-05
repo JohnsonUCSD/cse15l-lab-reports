@@ -55,6 +55,3 @@ To fix the bug, I had to delete the `.java` in `TestListExamples.java` on this l
 
 ## Part 2 - Reflection
 Something that I leanred in the second half of this quarter that I didn't know before is using vim. Before I knew about vim, I didn't know that you could edit a file on the command line. Editing is can feel very clunky at times, but having the ability to do so is very useful. Without having the files on your computer, you can just remote onto a server and edit files, view them, and samve them, which is pretty cool. 
-
-
-In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!

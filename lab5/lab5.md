@@ -1,8 +1,38 @@
+# Lab Report 5
+
+## Part 1 – Debugging Scenario
+
+**Original Edstem Post from Student**
 ![Image](chrome_1EGoYhCfI6.png)
 
 ![Image](chrome_Ai4eYpU29n.png)
 
 ![Image](chrome_qDn1r8RHvk.png)
+
+Response from TA:
+
+1. Right under the `initializationError`, it talks about how it can't find the `TestListExamples.java` class. When running your code in the command line, you only include the `.java` for `javac` to compile the file, and with the `java` command you only need to class name. So, in `grade.sh`, try removing the `.java` on the line you used to run the JUnit test starting with `java -cp`.
+
+
+2.
+
+![Image](runningfixed.png)
+
+The bug was that in the `.sh` file, after compiling the `TestListExamples.java`, to run it, I used `TestListExamples.java`. Instead, what it should've been is `TestListExamples`. Because I wrote `TestListExamples.java`, it tried to look for it as one of the `.class` files, but it didn't exist after compiling `TestListExamples.java` because the what it created when compiling is `TestListExamples.class`, and to run it we only need `TestListExamples`
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 

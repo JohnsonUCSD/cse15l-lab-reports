@@ -1,3 +1,5 @@
+!Image(chrome_1EGoYhCfI6.png)
+
 What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 
 I am using a Windows 10 computer and using Visual Studio Code. Using Git Bash, I sshed into the ieng6 servers on my  CSE 15L account. 

@@ -3,6 +3,7 @@
 ## Part 1 – Debugging Scenario
 
 **Original Edstem Post from Student**
+
 ![Image](chrome_1EGoYhCfI6.png)
 
 ![Image](chrome_Ai4eYpU29n.png)

@@ -31,19 +31,19 @@ The bug was that in the `.sh` file, after compiling the `TestListExamples.java`,
 
 GradeServer.java
 
-![Image]()
+![Image](gradeserver.png)
 
 Server.java
 
-![Image]()
+![Image](server.png)
 
 TestListExamples.java
 
-![Image]()
+![Image](testlistexamples.png)
 
 grade.sh
 
-![Image]()
+![Image](gradesh.png)
 
 **The full command line ran to trigger the bug**
 

@@ -1,5 +1,5 @@
 # Lab Report 5
-
+Source Used: https://github.com/ucsd-cse15l-f22/list-examples-grader/tree/main (grade.sh that auto grades)
 ## Part 1 – Debugging Scenario
 
 **Original Edstem Post from Student**
